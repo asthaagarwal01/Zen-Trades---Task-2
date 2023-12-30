@@ -1,9 +1,5 @@
-.step12 
+.contain
 {
     display: flex;
     justify-content: space-between;
-}
-
-*{
-    padding: 0 0.3rem;
 }

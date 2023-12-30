@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import FileSelect from './FileSelect';
+import './FileDeatils.css';
 
 function Upload() {
 
@@ -17,7 +18,7 @@ function Upload() {
 
 
   return (
-    <>
+    <div className='contain'>
         <div className='left'>
             <p>Step 1:</p>
         </div>
@@ -27,7 +28,7 @@ function Upload() {
             <p>Supported File type(S) : CSV,JSON</p>
             {selectedFile && <FileSelect file={selectedFile} />}
         </div>
-    </>
+    </div>
   )
 }
 
