@@ -1,5 +1,59 @@
-.contain
+*{
+    padding: 0.2rem 0.5rem;
+}
+
+.container
 {
+    margin-top: 170px;
+    
+    box-shadow: 4px 4px 26.9px -5px rgba(0, 0, 0, 0.10), -4px -4px 26.9px -5px rgba(0, 0, 0, 0.10);
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+}
+
+.divide{
     display: flex;
     justify-content: space-between;
 }
+
+.two
+{
+    margin-top: 4rem;
+}
+
+.btn
+{
+    margin-top: 30rem;
+    
+}
+
+.disp
+{
+    margin-top: 35rem;
+    margin-left: -80rem;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+

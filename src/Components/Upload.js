@@ -18,7 +18,8 @@ function Upload() {
 
 
   return (
-    <div className='contain'>
+    <>
+        <div className='contain'>
         <div className='left'>
             <p>Step 1:</p>
         </div>
@@ -26,9 +27,11 @@ function Upload() {
             <p>Select File</p>
             <input type="file" onChange={handleFileChange} />
             <p>Supported File type(S) : CSV,JSON</p>
-            {selectedFile && <FileSelect file={selectedFile} />}
+            
         </div>
     </div>
+    {selectedFile && <FileSelect file={selectedFile} />}
+    </>
   )
 }
 
