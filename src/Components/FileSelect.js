@@ -20,6 +20,7 @@ function FileSelect({ file }) {
                     if (data && data.products && typeof data.products === 'object') {
                         // Convert products object to array
                         const productsArray = Object.values(data.products);
+                        productsArray.sort((a, b) => b.popularity - a.popularity);
                         setProducts(productsArray);
 
 
